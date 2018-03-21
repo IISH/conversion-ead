@@ -1,0 +1,28 @@
+# General files to ignore
+*.rar
+.idea
+*.iml
+
+# HBM files and directories to ignore
+HBM/Data
+HBM/OLD*
+HBM/Original
+HBM/photos
+HBM/Result*
+HBM/target
+HBM/PHPExcel
+HBM/composer*
+HBM/vendor
+
+# Israeli Left files and directories to ignore
+Israeli Left/Completed EAD
+Israeli Left/Data
+
+# Staatsarchief files and directories to ignore
+Staatsarchief/data
+Staatsarchief/ead-files*
+Staatsarchief/nogtedoen*
+Staatsarchief/staatsarch-eric_1
+Staatsarchief/Compressed
+
+
