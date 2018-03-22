@@ -284,7 +284,7 @@ function collectItemsBelongingToCollection($collection_file, $directory, $new_do
 //                    }
 //                    $new_date = implode('/',$exploded_date);
 //                    $node_value = str_replace(' - ','//',$node_value);
-//                    replaceValueInEadWithCorrectValue($ead_file, 'normal', 'normal', $new_date, false); // TODO: Replace the attribute value
+//                    replaceValueInEadWithCorrectValue($ead_file, 'normal', 'normal', $new_date, false);
                     break;
                 default:
                     break;
@@ -333,13 +333,9 @@ function collectItemsBelongingToCollection($collection_file, $directory, $new_do
                 $c01_item_list = determineWhichDataToReplace($collection_item_sub_divs, $c01_file, $collection_id_array, $c01_item_list);
             }
         }
-//        print(__LINE__." -> <br>");
-//        print_r($ead_file);
-//        print("<br>");
-//        clearUnfilledValuesFromEadFile($ead_file); // TODO 08-02-2018 Improve this function!!!!
-//        print(__LINE__." -> <br>");
-//        print_r($ead_file);
-//        print("<br>");
+
+//        clearUnfilledValuesFromEadFile($ead_file);
+
         global $ead_item_counter, $ead_file_list;
         if($ead_file_name !== "") {
             print(__LINE__ . " - " . $ead_file_name . '<br>');
@@ -470,7 +466,6 @@ function addC01FilesWithSameSAVRZNumberToEad($c01_item_list, $ead_file_list){
 }
 
 function addC01FilesFromCollectionToTheEAD($ead_file, $c01_file){
-    // TODO: 26-01-2018 something is happening with the savrz002 files
     global $ead_item_counter;
     $lowest_box_number = PHP_INT_MAX;
     $lowest_map_number = PHP_INT_MAX;
@@ -726,8 +721,6 @@ function addDescriptionToTheEAD($ead_file){
         }
     }
 }
-// TODO: Why is this still in the result EAD?
-//<p>{inhoud}</p>
 
 function clearUnfilledValuesFromc01File($c01_file){
     $c01_file->preserveWhiteSpace = false;

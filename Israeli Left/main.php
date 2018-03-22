@@ -101,8 +101,6 @@ foreach ($allDirectoryFiles as $allDirectoryFile) {
         if (isset(pathinfo($allFile)['extension'])) {
             if (pathinfo($allFile)['extension'] !== "dir" && pathinfo($allFile)['extension'] === 'xml' && pathinfo($allFile, PATHINFO_FILENAME) === 'docmets' && array_key_exists('extension', pathinfo($allFile))) {
 
-                // TODO: before this line!
-
                 $domDocument = new DOMDocument();
                 $domDocument->load($allFile);
                 $domDocument->formatOutput = true;
