@@ -1,0 +1,60 @@
+Index.php
+	Collecties.php
+		topmenu -> Archieven, Periodieken, etc.
+			archieven\index.php
+				algemeen/vgeshidx.php (a href)
+					grouptitle -> Provo en Kabouter
+						a href -> vgeshdos.php
+							class group -> info about collection
+							item -> item for collection
+				algemeen/organisatie/storgidx.php
+					grouptitle -> Stedelijk overleg kraak- en aktiegroepen
+						a href -> storgdos.php
+							class group -> info about collection
+							item -> item for collection
+					grouptitle -> Kraakspreekuren
+						a href -> storgdos.php
+							class group -> info about collection
+							item -> item for collection
+				algemeen/organisatie/k-rchidx.php
+					grouptitle -> Anti-Kraakwet
+						a href -> k-rchdos.php
+							class group -> info about collection
+							item -> item for collection
+							
+							
+particularities
+	- collecties.php
+		- elke link in topmenu verwijst naar collecties
+		- elke h3 bevat meerdere links naar collecties
+		- de link verwijst naar de index pagina
+		- opbouw: h3, a, a, a, (ander element, niet <br>)
+		- na topmenu is belangrijke info
+		- menu en submenu niet belangrijk
+		- 
+	- archieven\index.php
+		- elke h3 bevat links naar de collectie, tevens als de naam van de collectie
+		- deze h3 elementen bevinden zich na de topmenu
+		- de link verwijst naar de collectie pagina
+		- 
+	- k-rchidx.php
+		- elke grouptitle bevat een index van de items behorende bij de collectie
+		- de index bestaat uit een <ul>
+		- elk linked item bevat een link naar het document met de naam van de item
+		- 
+	- k-rchdos.php#naam_item
+		- elk item bevat een naam overeenkomend met de naam uit de index genoemd in de index van de bovenliggende pagina
+		- elk item bevat een title
+		- elk item bevat een callno ???
+		- elk item bevat een format
+		- elk item bevat een period
+		- een item kan een person bevatten
+		- een item kan een notes bevatten
+		- een item kan een subject bevatten
+		- een item kan een geographical bevatten
+		- een item kan een organization bevatten
+		- sommige items bevatten geen callno (door onjuiste opmaak) "(</a>SAVRZ011 Doos 004 Map 3.1)</div>"
+		- 
+		
+		
+Kijken of een verzameling nummer per collectie hetzelfde is, e.g. SAVRZ031 + SAVRZ032

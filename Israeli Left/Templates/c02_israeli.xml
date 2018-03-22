@@ -1,0 +1,17 @@
+<dsc>
+    <c02 level="file">
+        <did>
+            <unitid>{UnitID}</unitid>
+            <unittitle>{dc.Title}.
+                <unitdate>{dc.Date}.</unitdate>
+            </unittitle>
+            <physdesc>
+                <genreform>{dc.Type}</genreform>
+            </physdesc>
+        </did>
+        <odd>
+            <p>Creator: {dc.Creator}</p>
+            <p>Language: {dc.Language}</p>
+        </odd>
+    </c02>
+</dsc>

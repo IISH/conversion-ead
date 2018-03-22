@@ -1,0 +1,20 @@
+<c01 level="file">
+    <did>
+        <unitid>{volgnummer}</unitid>
+        <unittitle>Eerste zin {beschrijving} {plaats}.
+            <unitdate>{datum}</unitdate>
+        </unittitle>
+        <physdesc>
+            <extent>1 {materiaalsoort} {afmetingen}</extent>
+        </physdesc>
+    </did>
+    <scopecontent>
+        <p>{beschrijving}</p>
+    </scopecontent>
+    <odd type="Bevolkingsgroep">
+        <p>Bevolkingsgroep: {Nationaliteiten}</p>
+    </odd>
+    <odd type="Trefwoorden">
+        <p>Trefwoorden: {Trefwoorden}</p>
+    </odd>
+</c01>
