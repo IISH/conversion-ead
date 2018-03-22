@@ -1,10 +1,10 @@
 # Staatsarchief
 
-##What is Staatsarchief?
+## What is Staatsarchief?
 Staatsarchief is a project that contains scripts to convert data from multiple different PHP (HTML) files into one EAD file.
 This reduces the time required to collect and combine the data provided.
 
-##Install and run
+## Install and run
 In order to use the scripts, one needs to install a couple of things beforehand.
 * Xampp for running an Apache server.
 * Create a 'data' map for the data to be converted.
@@ -13,7 +13,7 @@ In order to use the scripts, one needs to install a couple of things beforehand.
 With these installed the script can be run by starting an Apache server. 
 With the server running go to localhost/conversion-ead/Staatsarchief/staatsarchief.php or localhost/Staatsarchief/staatsarchief.php if using the Staatsarchief directory directly.
 
-##Usage
+## Usage
 To use the script you need to make sure the data provided is created according the correct format.
 The data needs to be a PHP file format with HTML code inside.
 The HTML needs to have multiple modules in the file, one for the general info about the file and multiple more
@@ -86,7 +86,7 @@ The files provided should be place in a 'data/staatsarchief' folder so the scrip
 And in order to start the application correctly, the main file should be called 'collecties.php' and should be placed in 'data/staatsarchief/'.
 This file is the leading file for the script.
 
-##Features
+## Features
 * Conversion of data from multiple different PHP files into EAD files.
 * Automatic generation of archive numbers based upon the archive numbers available as displayed in the code.
 
