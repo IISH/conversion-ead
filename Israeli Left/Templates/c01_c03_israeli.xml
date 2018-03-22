@@ -1,0 +1,35 @@
+<ead>
+    <archdesc>
+        <dsc>
+            <c01 level="series">
+                <did>
+                    <unittitle>{dc.Source}</unittitle>
+                </did>
+                <c02 level="subseries">
+                    <did>
+                        <unittitle>{dc.Subject}</unittitle>
+                    </did>
+                    <c03 level="file">
+                        <did>
+                            <unitid>{UnitID}</unitid>
+                            <unittitle>{dc.Title}.
+                                <unitdate>{dc.Date}.</unitdate>
+                            </unittitle>
+                            <origination label="Creator">
+                                {dc.Creator}
+                            </origination>
+                            <langmaterial label="Language">
+                                <language>
+                                    {dc.Language}
+                                </language>
+                            </langmaterial>
+                            <physdesc>
+                                <genreform>{dc.Type}</genreform>
+                            </physdesc>
+                        </did>
+                    </c03>
+                </c02>
+            </c01>
+        </dsc>
+    </archdesc>
+</ead>

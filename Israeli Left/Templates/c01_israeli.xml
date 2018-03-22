@@ -1,0 +1,43 @@
+<ead>
+    <archdesc>
+        <dsc>
+            <c01 level="series">
+                <did>
+                    <unittitle>
+                        {dc.Source}
+                    </unittitle>
+                </did>
+                <c02 level="file">
+                    <did>
+                        <unitid>
+                            {UnitID}
+                        </unitid>
+                        <unittitle>
+                            {dc.Title}.
+                            <unitdate>
+                                {dc.Date}.
+                            </unitdate>
+                        </unittitle>
+                        <origination label="Creator">
+                            {dc.Creator}
+                        </origination>
+                        <langmaterial label="Language">
+                            <language>
+                                {dc.Language}
+                            </language>
+                        </langmaterial>
+                        <physdesc>
+                            <genreform>{dc.Type} ({NumPages} pp.)</genreform>
+                        </physdesc>
+                    </did>
+                    <odd type="Publisher">
+                        <p>Publisher: {dc.Publisher}</p>
+                    </odd>
+                    <odd type="Subject">
+                        <p>Subject: {dc.Subject}</p>
+                    </odd>
+                </c02>
+            </c01>
+        </dsc>
+    </archdesc>
+</ead>

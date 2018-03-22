@@ -1,0 +1,25 @@
+#General
+.idea
+*.iml
+
+#HBM
+HBM/Data
+HBM/OLD*
+HBM/Original
+HBM/photos
+HBM/PHPExcel
+HBM/Result*
+HBM/target
+HBM/vendor
+HBM/composer*
+
+#Israeli Left
+Israeli Left/Completed EAD
+Israeli Left/Data
+
+#Staatsarchief
+Staatsarchief/Compressed
+Staatsarchief/data
+Staatsarchief/ead-files*
+Staatsarchief/staatsarch-eric_1
+

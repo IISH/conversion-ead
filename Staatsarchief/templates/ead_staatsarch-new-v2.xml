@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd http://www.w3.org/1999/xlink http://www.loc.gov/standards/xlink/xlink.xsd">
+    <eadheader langencoding="iso639-2b" dateencoding="iso8601" countryencoding="iso3166-1" repositoryencoding="iso15511"
+               scriptencoding="iso15924" relatedencoding="MARC21">
+        <eadid countrycode="NL" mainagencycode="NL-AmISG" identifier="hdl:10622/{ARCHNR}">
+            http://hdl.handle.net/10622/{ARCHNR}
+        </eadid>
+        <filedesc>
+            <titlestmt>
+                <titleproper>Archief {grouptitle}</titleproper>
+                <subtitle>Finding aid</subtitle>
+            </titlestmt>
+            <publicationstmt>
+                <publisher encodinganalog="260$b">International Institute of Social
+                    History
+                </publisher>
+                <address>
+                    <addressline>Cruquiusweg 31</addressline>
+                    <addressline>1019 AT Amsterdam</addressline>
+                    <addressline>The
+                        Netherlands
+                    </addressline>
+                </address>
+            </publicationstmt>
+        </filedesc>
+        <profiledesc>
+            <creation>Finding aid created by IISH Collection Processing
+                Department,
+                <date normal="2017-01-30">2018-01-30</date>
+            </creation>
+            <langusage>Finding aid is in
+                <language langcode="dut" encodinganalog="041">Dutch</language>
+            </langusage>
+        </profiledesc>
+    </eadheader>
+    <archdesc level="collection" type="inventory" relatedencoding="MARC21">
+        <did>
+            <head>Overzicht collectie</head>
+            <unittitle label="Title" encodinganalog="245$a">Archief {grouptitle}. </unittitle>
+            <unitdate type="inclusive" label="Period" encodinganalog="245$g" normal="{normal}">{groupperiod}.</unitdate>
+            <unitid repositorycode="NL-AmsISG" label="Collectie no." countrycode="NL" encodinganalog="852$j">{ARCHNR}
+            </unitid>
+            <origination label="Creator">
+                <corpname encodinganalog="110$a">Het Staatsarchief</corpname>
+            </origination>
+            <physdesc label="Physical Description">
+                <extent unit="item" encodinganalog="300$a" label="Extent">{groupsize}</extent>
+            </physdesc>
+            <langmaterial label="Language Material" encodinganalog="546$a">
+                <language langcode="dut" encodinganalog="041$a">Dutch</language>
+            </langmaterial>
+            <repository encodinganalog="852$a" label="Repository">
+                <corpname>Het Staatsarchief</corpname>
+                <address>
+                    <addressline>Cruquiusweg 31</addressline>
+                    <addressline>1019 AT Amsterdam</addressline>
+                    <addressline>The
+                        Netherlands
+                    </addressline>
+                </address>
+            </repository>
+        </did>
+        <descgrp type="context">
+            <head>Archiefvorming</head>
+            <bioghist encodinganalog="545$a">
+                <head>Geschiedenis</head>
+                <p>{Geschiedenis}</p>
+            </bioghist>
+            <custodhist encodinganalog="561$a">
+                <head>Geschiedenis archiefbeheer</head>
+                <p>Het Staatsarchief is opgericht in 1991 in de Amsterdamse Staatsliedenbuurt. Vandaar die naam. In mei
+                    2000 is het archief ondergebracht op het Internationaal Instituut voor Sociale geschiedenis.
+                </p>
+                <p>Een aantal vrijwilligers begon enthousiast alle op zolder opgeborgen pakketjes actieverleden bij
+                    elkaar te brengen. Honderden (voormalige) krakers en kraaksters hebben in de afgelopen jaren met hun
+                    verstofte stapeltjes bijgedragen aan de totstandkoming van het Staatsarchief. In totaal beslaat het
+                    achief zo'n 90 strekkende meter papier, zo'n 6000 affiches, 1500 foto's en honderden uren kijk- en
+                    luisterplezier op videobanden en audiotapes; ook onze kraakgarderobe met bijpassende bescherming en
+                    bewapening mag gezien worden.
+                </p>
+                <p>Oude signatuur: {groupcallno}</p>
+            </custodhist>
+            <acqinfo audience="internal" encodinganalog="541$a">
+                <head>Acquisitie</head>
+                <p>Bruikleen het Staatsarchief.
+                    <date normal="2000">2000</date>
+                </p>
+            </acqinfo>
+        </descgrp>
+        <descgrp type="content_and_structure">
+            <head>Inhoud en structuur</head>
+            <scopecontent encodinganalog="520$a">
+                <head>Inhoud</head>
+                <p>{inhoud}</p>
+            </scopecontent>
+            <arrangement encodinganalog="351$b">
+                <head>Ordening</head>
+                <p>De collectie is hoofdzakelijk ontsloten op geografisch onderwerp, niet op de personen of organisaties
+                    die aan de collectie hebben bijgedragen. Op deze wijze hebben we getracht de structuur van de
+                    beweging, waar je identiteit minder bepaald werd door je achternaam dan door de plek waar je woonde,
+                    zo goed mogelijk vast te houden. Groot voordeel is dat de titels in de catalogus ook inderdaad
+                    verwijzen naar datgene wat gesuggereerd wordt. Zo bevat b.v. de verzameling van de Indische Buurt
+                    alleen materiaal van en over de Indische Buurt en niet de krantjes waar men op geabonneerd was of
+                    materiaal van de acties waar men buiten de buurt aan deelnam.
+                </p>
+                <p>In 2017 is de collectie in EAD geconverteerd en met andere collecties van het IISG geïntegreerd.</p>
+            </arrangement>
+            <processinfo encodinganalog="583$a">
+                <head>Bewerking</head>
+                <p>Uit php geconverteerd in EAD in 2018</p>
+            </processinfo>
+            <controlaccess>
+                <head>Onderwerpen</head>
+                <controlaccess>
+                    <head>Land van herkomst</head>
+                    <geogname encodinganalog="044$c" role="country of origin" normal="NL">Netherlands</geogname>
+                </controlaccess>
+                <controlaccess>
+                    <head>Thema's</head>
+                    <subject encodinganalog="650$a">Housing</subject>
+                    <subject encodinganalog="650$a">Youth and students movements</subject>
+                    <subject encodinganalog="650$a">Riots, revolutions and protests</subject>
+                </controlaccess>
+                <controlaccess>
+                    <head>Materiaaltype</head>
+                    <genreform encodinganalog="655$a">Archival material</genreform>
+                    <genreform encodinganalog="655$a">Ephemera</genreform>
+                </controlaccess>
+            </controlaccess>
+        </descgrp>
+        <descgrp type="access_and_use">
+            <head>Raadpleging en gebruik</head>
+            <accessrestrict encodinganalog="506$a">
+                <head>Raadpleging</head>
+                <p>Vrij</p>
+            </accessrestrict>
+            <prefercite encodinganalog="524$a">
+                <head>Aanbevolen citeerwijze</head>
+                <p>Archief {grouptitle}, inventory number ..., International Institute of Social History, Amsterdam</p>
+            </prefercite>
+        </descgrp>
+        <descgrp type="allied_materials">
+            <head>Verwant materiaal</head>
+            <relatedmaterial encodinganalog="544$a">
+                <head>Verwante
+                    archieven
+                </head>
+                <p>{verwante archieven}</p>
+            </relatedmaterial>
+        </descgrp>
+        <dsc type="combined"><head>Lijst</head>{c01}
+        </dsc>
+    </archdesc>
+</ead>

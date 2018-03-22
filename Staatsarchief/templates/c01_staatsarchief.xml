@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c01 level="file">
+    <did>
+        <container type="box"></container>
+        <unitid>{callno}</unitid>
+        <unittitle>{title}.
+            <unitdate>{period}.</unitdate>
+        </unittitle>
+        <physdesc>
+            <extent> {format}</extent>
+        </physdesc>
+    </did>
+    <scopecontent>
+        <p>{notes}</p>
+    </scopecontent>
+    <odd type="subject">
+        <p>Trefwoorden: {subject}</p>
+    </odd>
+    <odd type="geographical">
+        <p>Geografisch onderwerp: {geographical}</p>
+    </odd>
+    <odd type="person">
+        <p>Personen: {person}</p>
+    </odd>
+    <odd type="organization">
+        <p>Organisaties: {organization}</p>
+    </odd>
+</c01>
